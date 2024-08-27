@@ -956,7 +956,8 @@ input[type="radio"] {
         gap: 10px;
     }
     .servicios-1{
-        margin-right: 40px;
+        margin-right: 30px;
+        margin-left: 10px;
     }
     .servicios-2{
         margin-right: 40px;
