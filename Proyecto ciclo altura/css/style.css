@@ -952,7 +952,7 @@ input[type="radio"] {
     }
     .servicicios-de-inscripcion{
         justify-content: space-evenly;
-        padding: 0px;
+        padding: 10px;
         gap: 10px;
     }
     .servicios-1{
