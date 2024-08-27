@@ -1,0 +1,1091 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+header {
+    height: 108rem;
+    margin: 0 auto;
+    background: url('../img/Banner.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.titulos {
+    font-size: 50px;
+    font-family: 'Bungee';
+}
+
+.subtitulos {
+    font-size: 30px;
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+
+.parrafos {
+    font-size: 32px;
+    font-family: 'Poppins';
+}
+
+
+.navbar {
+    display: flex;
+    height: 195px;
+    padding: 50px 202px 0px 202px;
+    justify-content: space-between;
+    font-size: 30px;
+    place-items: center;
+    font-family: 'Bungee';
+    margin-right: 30px;
+}
+
+.nav-close, .nav-open{
+    display: none;
+}
+nav a {
+    font-family: "Bungee", sans-serif;
+    text-decoration: none;
+    color: #000;
+    padding-left: 20px;
+}
+
+.navbar a:hover {
+    color: #00621D;
+}
+/* Final navbar */
+/* Inicio home-contenido */
+.home-contenido img{
+    object-fit: cover;
+}
+.home-contenido {
+    padding: 50px;
+    text-align: center;
+}
+
+.home-contenido h2 {
+    font-family: 'Bungee';
+    font-size: 80px;
+    background: linear-gradient(90deg, #000 0.01%, #00621D 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 50px;
+}
+
+.home-contenido h1 {
+    font-size: 20rem;
+    font-family: 'Microsoft PhagsPa';
+    display: none;
+    margin-bottom: 50px;
+}
+
+.home-contenido p {
+    color: #000;
+    text-align: center;
+    font-family: 'Bungee';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.home-contenido img {
+    margin-bottom: 50px;
+}
+
+p span {
+    color: var(--verde-nusgo, #00621D);
+    font-family: 'Bungee';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.btn {
+    background-color: transparent;
+    border: 4px solid #00621D;
+    font-size: 30px;
+    text-decoration: none;
+    color: var(--Negro, #000);
+    font-family: 'Bungee';
+    font-size: 35px;
+    font-weight: 400;
+    padding: 9px 25px 0px 25px;
+}
+
+.btn:hover {
+    background-color: #00621D;
+    color: black;
+}
+/* /* final home-contenido */ 
+/* Final banner */
+/* inicio mein */
+/* inicio seccion info carrrera */
+.info-carrera {
+    padding: 100px 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-edicion {
+    text-align: center;
+}
+
+.info-edicion p {
+    margin-bottom: 40px;
+}
+
+.info-adi div {
+    text-align: center;
+    display: flex;
+    width: 540px;
+    flex-direction: column;
+    align-items: center;
+    width: 540px;
+}
+
+.info-adi {
+    display: flex;
+    /* espacio en el medio */
+    justify-content: space-between;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+/* fonal seccion info carrera */
+
+/* Inicio cronograma */
+.degradado{
+    background: linear-gradient(180deg, rgba(252, 151, 74, 0.90) 0%, rgba(0, 0, 0, 0.90) 46.5%, rgba(0, 98, 29, 0.90) 100%);
+    background-position: center;
+    background-size: cover;
+}
+.cronograma {
+    padding-left: 288px;
+    padding-right: 288px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.contenido-cronograma span{
+    color: #FC974A
+}
+.contenido-cronograma-black{
+    color: #000;
+}
+.cronograma p { 
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+    font-style: normal;
+    padding-top: 160px;
+}
+.banderin img{
+    padding-left: 289px;
+    padding-top: 100px;
+    justify-content: start;
+}
+.imagen{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+}
+.imagen img{
+    /* width: 100%; */
+    object-fit: cover;
+}
+
+.contenido-cronograma{
+    display: flex;
+    /* separcar entre si */
+    justify-content: space-between;
+    padding: 0 150px;
+    padding-top: 10px;
+}
+.contenido-cronograma h2{
+    font-size: 90px;
+    font-family: 'Bungee';
+    color: #FFF;
+}
+.contenido-cronograma {
+    font-size: 30px;
+    font-family: 'Poppins';
+    color: #FFF;
+}
+.columna1{
+    text-align: center;
+    width: 441px;
+}
+.columna2{
+    text-align: center;
+    width: 489px;
+}
+.negro{
+    color: #000;
+    font-size: 30px;
+    font-family: 'Poppins';
+    background: linear-gradient(to bottom right, #FC974A 31%, #00621D 42%, #000 50%) bottom right / 50% 50% no-repeat, linear-gradient(to bottom left, #FC974A 31%, #00621D 42%, #000 50%) bottom left / 50% 50% no-repeat, linear-gradient(to top left, #FC974A 31%, #00621D 42%, #000 50%) top left / 50% 50% no-repeat, linear-gradient(to top right, #FC974A 31%, #00621D 42%, #000 50%) top right / 50% 50% no-repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.columna3{
+    text-align: center;
+    width: 539px;
+}
+/* final cronograma */
+
+/* inicnio paquete 1 */
+.informacion{
+    margin-bottom: 100px;
+    padding: 100px 200px;
+    text-align: center;
+}
+.paquete-1{
+    background-repeat: no-repeat;
+    background-image: url(../img/paquete-altura.png);
+}
+.informacion-1{
+    color: #FFF;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 20px;
+}
+.servicicios-de-inscripcion{
+    display: flex;
+    justify-content: center;
+    padding-left: 100px;
+}
+.servicios-1{
+    width: 353px;
+    align-items: center;
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+    margin-top: 10px;
+}
+.servicios-2{
+    width: 353px;
+    align-items: center;
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+    margin-top: 10px;
+}
+.servicios-3{
+    width: 353px;
+    align-items: center;
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+    margin-top: 10px;
+}
+.rutas{
+    display: flex;
+    margin-top: 44px;
+    flex-direction: column;
+}
+/* final de paquete 1 */
+
+/*  Inicio paquete 2*/
+.paquete-2{
+    background-repeat: no-repeat;
+    background-image: url(../img/fondo\ ruta\ corta.png)
+}
+.informacion-2{
+    color: #FFF;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 20px;
+}
+.servicicios-de-isncripccion{
+    display: flex;
+    justify-content: center;
+    padding-left: 100px;
+}
+.servicios-1{
+    width: 353px;
+    align-items: center;
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+    margin-top: 10px;
+}
+.servicios-2{
+    width: 353px;
+    align-items: center;
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+    margin-top: 10px;
+}
+.servicios-3{
+    width: 353px;
+    align-items: center;
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+    margin-top: 10px;
+}
+.rutas-2{
+    display: flex;
+    margin-top: 44px;
+    justify-content: center;
+    flex-direction: column;
+}
+/* final paquete 2 */
+.tex_jersey{
+    background: linear-gradient(90deg, #FC974A 0%, #00621D 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 50px 150px;
+    text-align: center;
+}
+.jersey{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+} 
+/* efecto hover */
+.jersey img{
+    transition: transform ease-out 2000ms;
+}
+.jersey img:hover{
+    border-radius: 50px;
+    border: 4px solid var(--Naranja, #FC974A);
+    background: rgba(255, 255, 255, 0.50);
+    transform: translateY(-2%);
+    box-shadow: 3px 10px 10px 5px rgba(0, 0, 0, 0.10);
+}
+/* inicio patrocinadores */
+.tex_patrocinadores{
+    margin-top: 100px;
+    justify-content: center;
+    text-align: center; 
+    background: linear-gradient(90deg, #FC974A, #00621D );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 15px;
+}
+/* inicio carousel */
+.carousel {
+    display: flex;
+    overflow: hidden;
+    gap: 300px;
+}
+
+.carousel-inner {
+    display: flex;
+    width: 400%; /* 100% * número de items */
+    animation: scroll 50s linear infinite;
+    gap: 300px;
+}
+.carousel-inner img{
+    width: 750px;
+}
+.carousel-item {
+    width: 50vw; /* Ajusta al tamaño de la ventana */
+}
+
+/* Animación infinita */
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+.texto-frase{
+    font-size: 30px;
+    font-family: 'Bungee';
+    background: linear-gradient(90deg, #FC974A, #00621D );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 10px;
+    text-align: center;
+}
+/* final carousel */
+/* final de patricinadores */
+/* inicio de formulario */
+.form-container {
+    background-image: url(../img/Inscricion\ fondo.png);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+.requisitos{
+    justify-content: center;
+}
+input{
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 25px;
+    align-items: center;
+}
+input::placeholder{
+    color: #FFF;
+    margin-left: 10px;
+}
+.cuadros{
+    width: 800px;
+    height: 80px;
+    flex-shrink: 0;
+    justify-content: center;
+    background: rgba(252, 151, 74, 0.50);
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 25px;
+    padding-left: 10px;
+    justify-content: space-between;
+    display: flex;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+.cuadros2{
+    width: 350px;
+    height: 80px;
+    justify-content: center;
+    background: rgba(252, 151, 74, 0.50);
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 25px;
+    justify-content: space-between;
+    padding-left: 10px;
+    margin-bottom: 50px;
+}
+.cuadros3{
+    height: 80px;
+    justify-content: center;
+    background: rgba(252, 151, 74, 0.50);
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 25px;
+    justify-content: space-between;
+    display: flex;
+    padding-left: 10px;
+    margin-bottom: 50px;
+}
+.linea1{
+    justify-content: center;
+    align-items: center;
+    margin-left: 390px;
+}
+.linea3{
+    display: flex ;
+    justify-content: center;
+}
+.linea4{
+    display: flex;
+    justify-items: center;
+    gap: 50px;
+    margin-left: 400px;
+}
+.linea4.flex{
+    padding-top: 10px;
+}
+
+/* Ocultar los radios originales */
+.radio-group input[type="radio"] {
+    display: none;
+    padding-top: 10px;
+}
+
+/* Estilo personalizado para el radio */
+.radio-group label {
+    position: relative;
+    display: inline-block;
+    padding-left: 60px; /* Espacio para el círculo */
+    margin-right: 30px; /* Espacio entre opciones */
+    cursor: pointer;
+    font-size: 20px; /* Tamaño del texto */
+    font-family: 'Poppins';
+}
+
+/* Círculo personalizado */
+
+.radio-group label::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 45px; /* Tamaño del círculo */
+    height: 45px; /* Tamaño del círculo */
+    border-radius: 50%;
+    background-color: #FC974A; /* Color del círculo */
+    border: 2px solid #FC974A;/* Borde del círculo */
+    transition: background-color 0.3s ease;
+}
+
+/* Círculo seleccionado */
+.radio-group input[type="radio"]:checked + label::before {
+    background-color: #FC974A; /* Color de fondo cuando está seleccionado */
+    border-color: #FC974A; /* Color del borde cuando está seleccionado */
+}
+
+/* Indicador dentro del círculo seleccionado */
+.radio-group input[type="radio"]:checked + label::after {
+    content: '';
+    position: absolute;
+    left: 7px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px; /* Tamaño del punto interno */
+    height: 30px; /* Tamaño del punto interno */
+    border-radius: 50%;
+    background-color: white; /* Color del punto interno */
+}
+
+.half-width {
+    width: 48%;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+    background-color:  rgba(252, 151, 74, 0.50);
+    font-size: 20px;
+
+
+}
+.btn-ins{
+    flex-shrink: 0;
+    padding: 20px;
+    background-color: rgba(252, 151, 74, 0.50);
+    border: none;
+    border-radius: 25px;
+    color: white;
+    font-size: 33px;
+    cursor: pointer;
+    font-family: 'Poppins';
+    text-decoration: none;
+    margin-left: 350px;
+    margin-bottom: 200px;
+}
+.btn-ins:hover {
+    background-color: #FC974A;
+}
+.footer-container{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px;
+    height: auto;
+}
+.logo-section{
+    display: flex;
+    flex: 0;
+    text-align: left;
+    }
+.text-section{
+    flex: 2;
+    text-align: center;
+    padding: 0 20px;
+    color: var(--Negro, #000);
+    font-weight: 400;
+    line-height: normal;
+    width: 663px;
+    font-family: 'Bungee';
+    font-size: 25px;
+    font-style: normal;
+}
+.social-media{
+    color: var(--Negro, #000);
+    text-align: center;
+    font-family: 'Bungee';
+    font-size: 20px;
+    font-style: normal;
+    line-height: normal;
+    height: 66px;
+}
+.iconos{
+    font-size:40px;
+}
+.footer-bottom {
+    background: linear-gradient(90deg, #00621D 0%, #FC974A 100%);
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 0px 237px;
+}
+
+.footer-bottom img {
+    width: 100px;
+    height: auto;
+}
+
+.footer-bottom p {
+    color: var(--Negro, #000);
+    text-align: center;
+    font-family: 'Bungee';
+    font-size: 20px;
+    font-style: normal;
+    justify-content: center;
+}
+/* final footer */
+/* Media query para pantallas de hasta 540px de ancho */
+@media screen and (max-width: 992px) {
+    /* Menu hamburguesa */
+    nav{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        top: 0%;
+        right: 0;
+        background: linear-gradient(180deg, rgba(252, 151, 74, 0.90) 0%, rgba(0, 98, 29, 0.90) 100%);
+        width: 100%;
+        height: 400px;
+        text-align: center;
+        padding-top: 100px;
+        gap: 50px;
+        top: -100%;
+        transition: .5s;
+    }
+    .show-menu{
+        top: 0;
+    }
+    .nav-close, .nav-open{
+        display: block;
+    }
+    .nav-close{
+        position: absolute;
+    }
+
+
+    .titulos {
+        font-size: 25px;
+        font-family: 'Bungee';
+    }
+    
+    .subtitulos {
+        font-size: 25px;
+        font-family: 'Poppins';
+        font-weight: bold;
+    }
+    .parrafos {
+        font-size: 20px;
+        font-family: 'Poppins';
+    }
+    
+    .navbar {
+        padding: 10px;
+    }
+    .home-contenido {
+        margin-top: 100px;
+    }
+    .home-contenido img{
+        width: 900px;
+
+    }
+    .home-contenido h2 {
+        font-size: 70px;
+    }
+
+    .home-contenido p {
+        font-size: 20px;
+    }
+
+    .btn {
+        font-size: 25px;
+    }
+    .info-carrera {
+        display: flex;
+        padding:  15px;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    .info-adi{
+        justify-content: center;
+        gap: 20px;
+    }
+    .cronograma {
+        padding: 0px;
+    }
+    .banderin{
+        width: 300px;
+    }
+    .banderin2{
+        width: 300px;
+    }
+    .crono2{
+        display: none;
+    }
+    .imagen img {
+        width: 991px;
+    }
+    .contenido-cronograma {
+        padding: 0px;
+    }
+    .contenido-cronograma h2 {
+        font-size: 45px;
+    }
+    .contenido-cronograma p {
+        font-size: 15px;
+        
+    }
+    .contenido-cronograma span{
+        font-size: 20px ;
+    }
+    .servicicios-de-inscripcion{
+        justify-content: space-evenly;
+    }
+    .servicios-1{
+        margin-right: 100px;
+    }
+    .rutas img{
+        width: 974px;
+        padding-top: 20px;
+    }
+    .rutas-2 img{
+        width: 974px;
+        padding-top: 20px;
+    }
+    .jersey img{
+        width: 200px;
+    }
+    .carousel-inner img{
+        width: 500px;
+    }
+    .texto-frase{
+        font-size: 20px;
+        padding-bottom: 20px;
+        padding-top: 30px;
+    }
+    .form-container{
+        align-items: center;
+    }
+    .requisitos{
+        justify-content: center;
+    }
+    .cuadros{
+        justify-content: center;
+        width: 500px ;
+        height: 60px;
+        font-size: 20px;
+    }
+    .cuadros2{
+        justify-content: center;
+        height: 60px;
+        font-size: 20px;
+    }
+    .cuadros3{
+        justify-content: center;
+        height: 60px;
+        font-size: 20px;
+    }
+    .linea1{
+        justify-content: center;
+        align-items: center;
+        margin-left: 200px;
+    }
+    .linea3{
+        display: flex ;
+        justify-content: center;
+    }
+    .linea4{
+        display: flex;
+        justify-items: center;
+        gap: 50px;
+        margin-left: 200px;
+    }
+    .radio-group label::before{
+        width: 30px;
+        height: 30px;
+    }
+    .radio-group input[type="radio"]:checked + label::after {
+        height: 20px;
+        width: 20px;
+    }
+    .radio-group label{
+        font-size: 20px;
+        padding-left: 40px;
+    }
+    .btn-ins{
+        font-size: 20px;
+    }
+    .requisitos{
+        justify-content: center;
+    }
+    .footer-container {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+        gap: 30px;
+    }
+    .text-section{
+        font-size: 20px;
+    }
+    .social-media{
+        height: 50px;
+    }
+    .footer-bottom {
+        padding: 5px;
+
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .titulos {
+        font-size: 18px;
+        font-family: 'Bungee';
+    }
+    
+    .subtitulos {
+        font-size: 20px;
+        font-family: 'Poppins';
+        font-weight: bold;
+    }
+    .parrafos {
+        font-size: 16px;
+        font-family: 'Poppins';
+    }
+    
+    .navbar {
+        padding: 10px;
+    }
+    .logo img {
+        width: 100px;
+    }
+    
+    .home-contenido {
+        margin-top: 100px;
+    }
+    .home-contenido img{
+        width: 320px;
+
+    }
+    .home-contenido h2 {
+        font-size: 35px;
+    }
+
+    .home-contenido p {
+        font-size: 16px;
+    }
+
+    .btn {
+        font-size: 18px;
+    }
+    .info-carrera {
+        display: flex;
+        padding:  15px;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    .info-adi{
+        justify-content: center;
+        gap: 20px;
+        width: 252px;
+    }
+    .info-adi div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .premios img{
+        width: 255px;
+    }
+    .banderin{
+        width: 120px;
+    }
+    .banderin2{
+        width: 120px;
+    }
+    .cronograma {
+        padding: 0px;
+    }
+    .imagen img{
+        width: 390px;
+        height: 480px;
+    }
+    .contenido-cronograma {
+        padding: 0px;
+    }
+    .cronograma p{
+        padding-top: 80px;
+    }
+    .crono2{
+        display: none;
+    }
+    .contenido-cronograma h2 {
+        font-size: 20px;
+    }
+    .contenido-cronograma p {
+        font-size: 13px;
+    }
+    .contenido-cronograma span{
+        font-size: 13px ;
+    }
+    .rutas{
+        margin-top: 5px;
+    }
+    .servicicios-de-inscripcion{
+        justify-content: space-evenly;
+        padding: 0px;
+        gap: 10px;
+    }
+    .servicios-1{
+        margin-right: 40px;
+    }
+    .servicios-2{
+        margin-right: 40px;
+    }
+    .servicios-1 img{
+        width: 91px;
+    }
+    .servicios-2 img{
+        width: 91px;
+    }
+    .servicios-3 img{
+        width: 91px;
+    }
+    .rutas img{
+        width: 400px;
+        padding-top: 20px;
+    }
+    .rutas-2 img{
+        width: 400px;
+        padding-top: 20px;
+        padding-top: 20px;
+    }
+    .jersey img{
+        width: 100px;
+    }
+    .carousel-inner img{
+        width: 300px;
+    }
+    .texto-frase{
+        font-size: 15px;
+        padding-bottom: 20px;
+        padding-top: 30px;
+    }
+    .form-container{
+        align-items: center;
+        padding-top: 50px;
+    }
+    .cuadros{
+        margin-left: 0px;
+        width: 350px ;
+        height: 30px;
+        font-size: 14px;
+        margin-bottom:10px;
+    }
+    .requisitos{
+        justify-content: center;
+        place-items: center;
+        
+    }
+    .cuadros2{
+        width: 150px;
+        height: 30px;
+        font-size: 14px;
+        margin-bottom:10px;
+    }
+    .cuadros3{
+        width: 150px;
+        margin-left: 0px;
+        height: 30px;
+        font-size: 14px;
+        margin-bottom:30px;
+    }
+    .linea1{
+        padding-bottom: 10px;
+        align-items: center;
+        margin: 0;
+        margin-left: 20px;
+    }
+    .linea3{
+        justify-content: center;
+        place-items: center;
+        gap: 10px;
+    }
+    .linea4{
+        display: flex;
+        justify-items: center;
+        gap: 50px;
+        margin: 0px;
+        margin-left: 50px;
+    }
+    .radio-group label::before{
+        width: 20px;
+        height: 21px;
+    }
+    .radio-group input[type="radio"]:checked + label::after {
+        left: 4px;
+        width: 15px;
+        height: 15px;
+    }
+    .radio-group label{
+        font-size: 16px;
+        padding-left: 40px;
+    }
+    .btn-ins{
+        font-size: 15px;
+        margin: 0px;
+        padding: 10px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+        gap: 30px;
+        font-size: 15px;
+        padding: 10px;
+    }
+    .footer-container p{
+        font-size: 14px;
+    } 
+    .text-section{
+        font-size: 16px;
+    }
+    .social-media{
+        height: 30px;
+    }
+    .iconos{
+        font-size: 25px;
+    }
+    .footer-bottom {
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+    }
+    .footer-bottom p{
+        font-size: 15px;
+    }
+    .footer-bottom img{
+        width: 50px;
+        align-items: center;
+    }
+    .logo-section img{
+        width: 200px;
+    }
+}
