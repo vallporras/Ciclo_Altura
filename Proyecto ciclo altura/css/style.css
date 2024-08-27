@@ -19,6 +19,10 @@ header {
     background-position: center;
     background-size: cover;
 }
+.main{
+    overflow:hiddem;
+}
+
 
 .titulos {
     font-size: 50px;
